@@ -1,5 +1,5 @@
 {
-   "author": ["MahMUD"],
+   "author": ["ArAfat"],
     "facebookAccount": {
     "email": "mahmudx077@gmail.com",
     "password": "",
@@ -26,7 +26,7 @@
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "nickNameBot": "𝐇𝐈𝐍𝐀𝐓𝐀 𝐁𝐁𝐘'𝐙 🎀",
-  "prefix": "!",
+  "prefix": ".",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",

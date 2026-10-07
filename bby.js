@@ -11,8 +11,8 @@ const mahmud = [
     "জানু",
     "বেবি",
     "wifey",
-    "hina",
-    "hinata",
+    "alya",
+    "@Alyà ChEñ 💗",
 ];
 
 const baseApiUrl = async () => {
@@ -160,18 +160,18 @@ module.exports.onChat = async ({ api, event }) => {
         const hasTrigger = mahmud.some(word => body.startsWith(word));
 
         if (event.type !== "message_reply" && hasTrigger) {
-            api.setMessageReaction("🪽", event.messageID, () => {}, true);
+            api.setMessageReaction("🩶", event.messageID, () => {}, true);
 
             const text = body.replace(/^\S+\s*/, "");
             const attachments = event.attachments || [];
 
             const randomMessage = [
                 "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",
-                "neo amr boss k message daw 01836298139",
+                "আরাফাত কে কেউ mention দেও",
                 "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
                 "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏",
                 "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝘂__😘😘",
-                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, MahMUD ,MahMUD ও তো করতে পারো😑?",
+                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, Arafat, Arafat ও তো করতে পারো😑?",
                 "আমার সোনার বাংলা, তারপরে লাইন কি? 🙈",
                 "🍺 এই নাও জুস খাও..!𝗕𝗯𝘆 বলতে বলতে হাপায় গেছো না 🥲",
                 "হটাৎ আমাকে মনে পড়লো 🙄",
